@@ -1,5 +1,5 @@
 import React from "react";
-import "./APropos.css";
+import "./APropos.scss";
 import Banniere from "../../components/Banniere/Banniere";
 import banniereAPropos from "../../assets/img/Pages/A-Propos/Banniere.png";
 import Dropdown from "../../components/Dropdown/Dropdown";

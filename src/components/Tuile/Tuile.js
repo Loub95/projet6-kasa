@@ -1,5 +1,5 @@
 import React from "react";
-import "./Tuile.css";
+import "./Tuile.scss";
 
 function Tuile({id, image, titre}) {
     return(

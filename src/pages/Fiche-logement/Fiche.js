@@ -1,5 +1,5 @@
 import React from "react";
-import "./Fiche.css";
+import "./Fiche.scss";
 import { useParams, Navigate } from 'react-router-dom';
 import ListeLogements from "../../assets/api/logements.json";
 import Carrousel from "../../components/Carrousel/Carrousel";

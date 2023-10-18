@@ -1,12 +1,18 @@
 import React from "react";
-import './App.css';
+import './style/main.scss';
 import RoutesPath from "../src/routes/RoutesPath";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./layouts/Layout";
+
 
 function App() {
     return (
-        <div className="App">
-            <RoutesPath/>
-        </div>
+       <BrowserRouter> 
+       <Layout> <div className="App"><RoutesPath/></div> </Layout>
+    
+             
+        </BrowserRouter> 
+
     );
 }
 

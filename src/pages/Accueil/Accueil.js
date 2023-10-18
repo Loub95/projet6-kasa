@@ -1,5 +1,5 @@
 import React from "react";
-import "./Accueil.css";
+import "./Accueil.scss";
 import Banniere from "../../components/Banniere/Banniere";
 import banniereAccueil from "../../assets/img/Pages/Accueil/Banniere.png";
 import { NavLink } from "react-router-dom";

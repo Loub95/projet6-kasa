@@ -1,5 +1,5 @@
 import React from "react";
-import "./Banniere.css";
+import "./Banniere.scss";
 
 function Banniere({image, texte}) {
     return(
